@@ -41,6 +41,9 @@ something along those lines.
     </td>
     <td>
       <ul>
+        <li>`DeepDiff` objects</li>
+        <li>dict representation of `DeepDiff`</li>
+        <li>JSON representation of `DeepDiff`</li>
       </ul>
     </td>
     <td>
@@ -63,6 +66,7 @@ something along those lines.
     </td>
     <td>
       <ul>
+        <li>own JSON-ish format</li>
       </ul>
     </td>
     <td>
@@ -85,6 +89,7 @@ something along those lines.
     </td>
     <td>
       <ul>
+        <li>own JSON-ish format</li>
       </ul>
     </td>
     <td>

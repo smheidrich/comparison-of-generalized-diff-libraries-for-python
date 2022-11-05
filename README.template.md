@@ -43,8 +43,8 @@ something along those lines.
     </td>
     <td>
       <ul>
-      {%- for patch_format in library.patch_formats %}
-        <li>{{ patch_format }}</li>
+      {%- for patch_output_format in library.patch_output_formats %}
+        <li>{{ patch_output_format }}</li>
       {%- endfor %}
       </ul>
     </td>
