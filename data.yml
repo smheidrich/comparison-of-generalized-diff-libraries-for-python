@@ -1,0 +1,40 @@
+libraries:
+  - name: DeepDiff
+    pypi_url: https://pypi.org/project/deepdiff/
+    supported_data_structures:
+      - JSON-ish
+      - "arbitrary Python objects that define `__slots__` or `__dict__`"
+    patch_output_formats:
+      - "`DeepDiff` objects"
+      - "dict representation of `DeepDiff`"
+      - "JSON representation of `DeepDiff`"
+    can_apply_patches: false
+    diffing_time_complexity: O(n) when not ignoring order, otherwise ?
+  - name: jycm
+    pypi_url: https://pypi.org/project/jycm/
+    supported_data_structures:
+      - JSON-ish
+    patch_output_formats:
+      - own JSON-ish format
+    can_apply_patches: false
+    diffing_time_complexity: "?"
+  - name: jsondiff
+    pypi_url: https://pypi.org/project/jsondiff/
+    supported_data_structures:
+      - JSON-ish
+    patch_output_formats:
+      - own JSON-ish format
+    can_apply_patches: ✔ (undocumented)
+    diffing_time_complexity: "?"
+excluded_libraries:
+  - name: json-diff
+    pypi_url: https://pypi.org/project/json-diff/
+    reason: Is just a CLI tool with no (documented) API.
+  - name: jsonpatch
+    pypi_url: https://pypi.org/project/jsonpatch/
+    reason: Can only apply patches, not produce them by diffing.
+  - name: json-diff-patch
+    pypi_url: https://github.com/apack1001/json-diff-patch
+    reason: >
+      Is just a CLI tool with no (documented) API (yet). Also not
+      released to PyPI yet.
