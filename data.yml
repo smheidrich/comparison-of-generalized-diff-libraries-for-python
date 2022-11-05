@@ -3,11 +3,11 @@ libraries:
     pypi_url: https://pypi.org/project/deepdiff/
     supported_data_structures:
       - JSON-ish
-      - "arbitrary Python objects that define `__slots__` or `__dict__`"
+      - "arbitrary Python objects that define <code>__slots__</code> or <code>__dict__</code>"
     patch_output_formats:
-      - "`DeepDiff` objects"
-      - "dict representation of `DeepDiff`"
-      - "JSON representation of `DeepDiff`"
+      - "<code>DeepDiff</code> objects"
+      - "dict representation of <code>DeepDiff</code>"
+      - "JSON representation of <code>DeepDiff</code>"
     can_apply_patches: false
     diffing_time_complexity: O(n) when not ignoring order, otherwise ?
   - name: jycm

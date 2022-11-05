@@ -36,14 +36,14 @@ something along those lines.
     <td>
       <ul>
         <li>JSON-ish</li>
-        <li>arbitrary Python objects that define `__slots__` or `__dict__`</li>
+        <li>arbitrary Python objects that define <code>__slots__</code> or <code>__dict__</code></li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>`DeepDiff` objects</li>
-        <li>dict representation of `DeepDiff`</li>
-        <li>JSON representation of `DeepDiff`</li>
+        <li><code>DeepDiff</code> objects</li>
+        <li>dict representation of <code>DeepDiff</code></li>
+        <li>JSON representation of <code>DeepDiff</code></li>
       </ul>
     </td>
     <td>
