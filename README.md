@@ -3,7 +3,7 @@
 It is often said there are more generalized diff libraries for Python than
 stars in the Milky Way. Here I compare them all.
 
-*Did I miss one or do you have suggestions for criteria? Feel free to
+*Did I miss one or do you have suggestions for other criteria? Feel free to
 [open an issue](https://github.com/smheidrich/comparison-of-pytest-data-file-access-libraries/issues/new)!*
 
 ## What do I mean by "generalized diff"?
@@ -112,5 +112,11 @@ excluded from the comparison for the stated reasons:
 
 ## Summary
 
-To my surprise, I couldn't find a single package that (a) provides
-a Python API and (b) can both produce and apply JSON patches (ideally in the 
+To my surprise, I couldn't find a single package that a) provides
+a Python API and b) can both produce and apply JSON patches in the [RFC 6902
+JSON Patch](https://jsonpatch.com/) format.
+
+JavaScript looks a lot better positioned on that front, with libraries like
+[jiff](https://github.com/cujojs/jiff) being able to not only diff and patch
+but also manipulate the patches in various ways, like "rebasing" or changing
+the order of operations.
