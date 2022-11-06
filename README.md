@@ -4,7 +4,7 @@ It is often said there are more generalized diff libraries for Python than
 stars in the Milky Way. Here I compare them all.
 
 *Did I miss one or do you have suggestions for other criteria? Feel free to
-[open an issue](https://github.com/smheidrich/comparison-of-pytest-data-file-access-libraries/issues/new)!*
+[open an issue](https://github.com/smheidrich/comparison-of-generalized-diff-libraries-for-python/issues/new)!*
 
 ## What do I mean by "generalized diff"?
 
