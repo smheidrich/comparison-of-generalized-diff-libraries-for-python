@@ -1,4 +1,12 @@
 libraries:
+  - name: jsonpatch
+    pypi_url: https://pypi.org/project/jsonpatch/
+    supported_data_structures:
+      - JSON-ish
+    patch_output_formats:
+      - JSON Patch (RFC 6902)
+    can_apply_patches: true
+    diffing_time_complexity: "?"
   - name: DeepDiff
     pypi_url: https://pypi.org/project/deepdiff/
     supported_data_structures:
@@ -30,9 +38,6 @@ excluded_libraries:
   - name: json-diff
     pypi_url: https://pypi.org/project/json-diff/
     reason: Is just a CLI tool with no (documented) API.
-  - name: jsonpatch
-    pypi_url: https://pypi.org/project/jsonpatch/
-    reason: Can only apply patches, not produce them by diffing.
   - name: json-diff-patch
     pypi_url: https://github.com/apack1001/json-diff-patch
     reason: >
