@@ -29,6 +29,29 @@ something along those lines.
   </tr>
   <tr>
     <td>
+      <a href="https://pypi.org/project/jsonpatch/">
+        jsonpatch
+      </a>
+    </td>
+    <td>
+      <ul>
+        <li>JSON-ish</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>JSON Patch (RFC 6902)</li>
+      </ul>
+    </td>
+    <td>
+      ✔
+    </td>
+    <td>
+      ?
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://pypi.org/project/deepdiff/">
         DeepDiff
       </a>
@@ -108,8 +131,6 @@ excluded from the comparison for the stated reasons:
 
 - [json-diff](https://pypi.org/project/json-diff/):
   Is just a CLI tool with no (documented) API.
-- [jsonpatch](https://pypi.org/project/jsonpatch/):
-  Can only apply patches, not produce them by diffing.
 - [json-diff-patch](https://github.com/apack1001/json-diff-patch):
   Is just a CLI tool with no (documented) API (yet). Also not released to PyPI
   yet.
