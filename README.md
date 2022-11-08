@@ -134,15 +134,3 @@ excluded from the comparison for the stated reasons:
 - [json-diff-patch](https://github.com/apack1001/json-diff-patch):
   Is just a CLI tool with no (documented) API (yet). Also not released to PyPI
   yet.
-
-
-## Summary
-
-To my surprise, I couldn't find a single package that a) provides
-a Python API and b) can both produce and apply JSON patches in the [RFC 6902
-JSON Patch](https://jsonpatch.com/) format.
-
-JavaScript looks a lot better positioned on that front, with libraries like
-[jiff](https://github.com/cujojs/jiff) being able to not only diff and patch
-but also manipulate the patches in various ways, like "rebasing" or changing
-the order of operations.
